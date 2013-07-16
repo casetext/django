@@ -1713,7 +1713,7 @@ def prefetch_related_objects(result_cache, related_lookups):
                         break
                 else:
                     # We already did this list
-                    break
+                    pass
             if not good_objects:
                 break
 
